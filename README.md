@@ -5,12 +5,13 @@ A .blend/.py that allow you to animate and export a JSON Project Diva A3DA Camer
 The script takes all the values in the scene and the values of every specific object (this could be a problem if we talk about the file size).
 
 # How to use
+## Camera Animation
 Open the .blend file and go to the 'Animation' tab.
 You can animate the following objects:
 
-	- CameraTrack (Loc x,y,z)
-		- Camera (Focal Length, Rot z)
-	- Interest (Loc x,y,z)
+* CameraTrack (Loc x,y,z)
+	* Camera (Focal Length, Rot z)
+* Interest (Loc x,y,z)
 
 (If a property have a Lock, is not supposed to be animated)
 	
@@ -18,7 +19,7 @@ DIVA uses a camera system based on a Camera Position and an Interest. The Camera
 For example, if you have your 'Interest' positioned at (0,0,0) and you move your 'CameraTrack', the camera will always be pointing at your (0,0,0) 'Interest'.
 Animate the 'camera' as desired.
 
-# JSON Export/Conversion
+## JSON Export/Conversion
 When you're ready to export your work, follow these steps:
 
 	1- Go to the 'Scripting' tab, in *file_name = "Set your .a3da name here"* (line 11), change the name you want. For example:
@@ -34,5 +35,5 @@ Ensure that the correct 'Frame Rate' is selected in your 'Output Properties' (co
 You can use the graph editor, constraints, and many other Blender functions to animate the Camera.
 
 # Credits
-Korekonder for JSON A3DA layout and PD Tool.
+[korenkonder](https://github.com/korenkonder) for JSON A3DA layout and PD Tool.
 https://github.com/korenkonder/PD_Tool
