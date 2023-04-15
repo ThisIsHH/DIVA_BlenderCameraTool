@@ -23,7 +23,7 @@ Animate the 'camera' as desired.
 When you're ready to export your work, follow these steps:
 
 1- Go to the 'Scripting' tab, in *file_name = "Set your .a3da name here"* (line 11), change the name you want. For example:
-file_name = "CAMPV300_BASE" (Do not write the file extension)
+*file_name = "CAMPV300_BASE"* (Do not write the file extension)
 Run the script.
 Your export is going to be in the same directory where the .blend file is located.
 
