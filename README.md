@@ -22,13 +22,13 @@ Animate the 'camera' as desired.
 ## JSON Export/Conversion
 When you're ready to export your work, follow these steps:
 
-	1- Go to the 'Scripting' tab, in *file_name = "Set your .a3da name here"* (line 11), change the name you want. For example:
-	file_name = "CAMPV300_BASE" (Do not write the file extension)
-	Run the script.
-	Your export is going to be in the same directory where the .blend file is located.
+1- Go to the 'Scripting' tab, in *file_name = "Set your .a3da name here"* (line 11), change the name you want. For example:
+file_name = "CAMPV300_BASE" (Do not write the file extension)
+Run the script.
+Your export is going to be in the same directory where the .blend file is located.
 
-	2- Use Korekonder's PD Tool for conversion:
-	Run PD Tool and select 'AC/DT/F/AFT Converting Tools' -> A3DA -> Select your JSON export -> A3DA [AFT/FT/M39] (tested in this option).
+2- Use Korekonder's PD Tool for conversion:
+Run PD Tool and select 'AC/DT/F/AFT Converting Tools' -> A3DA -> Select your JSON export -> A3DA [AFT/FT/M39] (tested in this option).
 
 # Important notes
 Ensure that the correct 'Frame Rate' is selected in your 'Output Properties' (commonly 60 fps).
