@@ -1,5 +1,5 @@
 # DIVA_BlenderCameraTool
-This tool allows you to animate and export a JSON Project Diva A3DA Camera.
+A .blend/.py that allow you to animate and export a JSON Project Diva A3DA Camera.
 
 # How the script works
 The script takes all the values in the scene and the values of every specific object (this could be a problem if we talk about the file size).
