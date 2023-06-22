@@ -35,5 +35,5 @@ Ensure that the correct 'Frame Rate' is selected in your 'Output Properties' (co
 You can use the graph editor, constraints, and many other Blender functions to animate the Camera.
 
 # Credits
-[korenkonder](https://github.com/korenkonder) for JSON A3DA layout and PD Tool.
+[korenkonder](https://github.com/korenkonder) for script support, JSON A3DA layout and PD Tool.
 https://github.com/korenkonder/PD_Tool
